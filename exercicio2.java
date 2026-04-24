@@ -5,7 +5,7 @@ public class exercicio2 {
         Scanner input = new Scanner(System.in);
         System.out.print("Digite o preço do produto: ");
         double precoOriginal = input.nextDouble();
-        double desconto = input.nextDouble();
+        double desconto;
         if (precoOriginal >= 200) {
             desconto = 0.20;
         } else if (precoOriginal >= 100) {
